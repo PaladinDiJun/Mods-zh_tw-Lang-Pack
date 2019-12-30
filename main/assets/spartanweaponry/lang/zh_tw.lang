@@ -236,7 +236,7 @@ material.spartanweaponry:tin=錫
 material.spartanweaponry:bronze=青銅
 material.spartanweaponry:steel=鋼
 material.spartanweaponry:silver=銀
-material.spartanweaponry:invar=因瓦
+material.spartanweaponry:invar=殷鋼
 material.spartanweaponry:platinum=鉑
 material.spartanweaponry:electrum=琥珀金
 material.spartanweaponry:nickel=鎳
@@ -249,7 +249,7 @@ material.spartanweaponry:ingotTin=錫錠
 material.spartanweaponry:ingotBronze=青銅錠
 material.spartanweaponry:ingotSteel=鋼錠
 material.spartanweaponry:ingotSilver=銀錠
-material.spartanweaponry:ingotInvar=因瓦錠
+material.spartanweaponry:ingotInvar=殷鋼錠
 material.spartanweaponry:ingotPlatinum=鉑錠
 material.spartanweaponry:ingotElectrum=琥珀金錠
 material.spartanweaponry:ingotNickel=鎳錠
@@ -349,7 +349,7 @@ tooltip.spartanweaponry:attribute.damage=%s傷害
 attribute.name.spartanweaponry:generic.throwing_damage=投擲傷害
 
 #Dev tooltips
-dev.spartanweaponry:wip=前正在進行中s (WIP)
+dev.spartanweaponry:wip=目前正在進行中 (WIP)
 
 #Advancements
 advancement.spartanweaponry：root.title=斯巴達武器
@@ -412,12 +412,12 @@ advancement.spartanweaponry：explode_creeper=業力
 advancement.spartanweaponry：explode_creeper.desc=讓苦力怕嚐嚐自己的藥！
 
 #Subtitles
-subtitle.spartanweaponry:crossbow_load=Crossbow Loaded
-subtitle.spartanweaponry:crossbow_fire=Crossbow Fires Bolt
-subtitle.spartanweaponry:throwing_weapon_throw=Throwing Weapon Thrown
-subtitle.spartanweaponry:throwing_weapon_hit=Throwing Weapon Hit
-subtitle.spartanweaponry:boomerang_throw=Boomerang Thrown
-subtitle.spartanweaponry:boomerang_flight=Boomerang Flies
+subtitle.spartanweaponry:crossbow_load=弩裝填
+subtitle.spartanweaponry:crossbow_fire=弩裝彈
+subtitle.spartanweaponry:throwing_weapon_throw投擲武器
+subtitle.spartanweaponry:throwing_weapon_hit=投擲武器命中
+subtitle.spartanweaponry:boomerang_throw=迴旋鏢投擲
+subtitle.spartanweaponry:boomerang_flight=迴旋鏢
 
 #Configs
 config.spartanweaponry:category.materials=材料
@@ -427,7 +427,7 @@ config.spartanweaponry:damageBaseTin=錫的基礎傷害
 config.spartanweaponry:damageBaseBronze=青銅的基礎傷害
 config.spartanweaponry:damageBaseSteel=鋼的基礎傷害
 config.spartanweaponry:damageBaseSilver=銀的基礎傷害
-config.spartanweaponry:damageBaseInvar=因瓦的基礎傷害
+config.spartanweaponry:damageBaseInvar=殷鋼的基礎傷害
 config.spartanweaponry:damageBasePlatinum=鉑的基礎傷害
 config.spartanweaponry:damageBaseElectrum=琥珀金的基礎傷害
 config.spartanweaponry:damageBaseNickel=鎳的基礎傷害
@@ -438,7 +438,7 @@ config.spartanweaponry:durabilityBaseTin=錫製耐久度
 config.spartanweaponry:durabilityBaseBronze=青銅製耐久度
 config.spartanweaponry:durabilityBaseSteel=鋼製耐久度
 config.spartanweaponry:durabilityBaseSilver=銀製耐久度
-config.spartanweaponry:durabilityBaseInvar=因瓦製耐久度
+config.spartanweaponry:durabilityBaseInvar=殷鋼製耐久度
 config.spartanweaponry:durabilityBasePlatinum=鉑製耐久度
 config.spartanweaponry:durabilityBaseElectrum=琥珀金製耐久度
 config.spartanweaponry:durabilityBaseNickel=鎳製耐久度
@@ -449,7 +449,7 @@ config.spartanweaponry:disableTin=禁用錫製武器
 config.spartanweaponry:disableBronze=禁用青銅製武器
 config.spartanweaponry:disableSteel=禁用鋼製武器
 config.spartanweaponry:disableSilver=禁用銀製武器
-config.spartanweaponry:disableInvar=禁用因瓦製武器
+config.spartanweaponry:disableInvar=禁用殷鋼製武器
 config.spartanweaponry:disablePlatinum=禁用鉑製武器
 config.spartanweaponry:disableElectrum=禁用琥珀金製武器
 config.spartanweaponry:disableNickel=禁用鎳製武器
@@ -479,55 +479,55 @@ config.spartanweaponry:category.longbow=強化長弓
 config.spartanweaponry:woodenLongbowOnly=僅木長弓
 config.spartanweaponry:multiplierLongbow=長弓乘數
 
-config.spartanweaponry:category.crossbow=Crossbow
-config.spartanweaponry:woodenCrossbowOnly=Wooden Crossbows Only
-config.spartanweaponry:crossbowInaccuracyMax=Maximum Bolt Spread
-config.spartanweaponry:crossbowTicksToLoad=Crossbow Loading Ticks
-config.spartanweaponry:crossbowTicksCooldown=Crossbow Load Cooldown
-config.spartanweaponry:boltDamage=Bolt Base Damage
-config.spartanweaponry:boltDiamondDamage=Diamond Bolt Base Damage
+config.spartanweaponry:category.crossbow=弩
+config.spartanweaponry:woodenCrossbowOnly=僅限木製弩
+config.spartanweaponry:crossbowInaccuracyMax=最大箭弩散佈
+config.spartanweaponry:crossbowTicksToLoad=弩裝填時間
+config.spartanweaponry:crossbowTicksCooldown=弩裝填冷卻
+config.spartanweaponry:boltDamage=弩箭基礎傷害
+config.spartanweaponry:boltDiamondDamage=鑽石弩箭基礎傷害
 
-config.spartanweaponry:category.throwing_knife=Throwing Knife
+config.spartanweaponry:category.throwing_knife=飛刀
 
-config.spartanweaponry:category.throwing_axe=Throwing Axe
+config.spartanweaponry:category.throwing_axe=飛斧
 
-config.spartanweaponry:category.javelin=Javelin
+config.spartanweaponry:category.javelin=標槍
 
-config.spartanweaponry:category.boomerang=Boomerang
-config.spartanweaponry:woodenBoomerangOnly=Wooden Boomerangs Only
+config.spartanweaponry:category.boomerang=迴旋鏢
+config.spartanweaponry:woodenBoomerangOnly=僅限木製迴旋鏢
 
-config.spartanweaponry:category.battleaxe=Battleaxe
+config.spartanweaponry:category.battleaxe=戰斧
 
-config.spartanweaponry:category.mace=Mace
+config.spartanweaponry:category.mace=狼牙棒
 
-config.spartanweaponry:category.glaive=Glaive
+config.spartanweaponry:category.glaive=長柄刀
 
-config.spartanweaponry:category.quarterstaff=Quarterstaff
+config.spartanweaponry:category.quarterstaff=長棍
 
-config.spartanweaponry:category.arrows=Arrows & Quivers
-config.spartanweaponry:disableNewArrows=Disable Arrows
-config.spartanweaponry:disableDiamondArrowsAndBolts=Disable Diamond Arrows & Bolts
-config.spartanweaponry:disableQuivers=Disable Quivers
-config.spartanweaponry:quiverBowBlacklist=Bow Blacklist for Arrow Quiver
-config.spartanweaponry:baseDamageArrowWood=Wooden Arrow Base Damage
-config.spartanweaponry:baseDamageArrowIron=Iron Arrow Base Damage
-config.spartanweaponry:baseDamageArrowDiamond=Diamond Arrow Base Damage
+config.spartanweaponry:category.arrows=箭矢 & 箭袋
+config.spartanweaponry:disableNewArrows=禁用箭矢
+config.spartanweaponry:disableDiamondArrowsAndBolts=禁用鑽石箭矢和弩箭
+config.spartanweaponry:disableQuivers=禁用箭袋
+config.spartanweaponry:quiverBowBlacklist=箭袋的弓黑名單
+config.spartanweaponry:baseDamageArrowWood=木箭基礎傷害
+config.spartanweaponry:baseDamageArrowIron=鐵箭基礎傷害
+config.spartanweaponry:baseDamageArrowDiamond=鑽石基礎傷害
 
-config.spartanweaponry:category.explosives=Explosives
-config.spartanweaponry:disableExplosives=Disable Explosives
-config.spartanweaponry:enableTerrainDamage=Explosives Cause Terrain Damage
+config.spartanweaponry:category.explosives=炸藥
+config.spartanweaponry:disableExplosives=禁用炸藥
+config.spartanweaponry:enableTerrainDamage=爆炸造成地形破壞
 
-config.spartanweaponry:category.weapon_properties=Weapon Properties
-config.spartanweaponry:quickStrikeHurtResistTicks=Quick Strike: Hurt Resistance Ticks
+config.spartanweaponry:category.weapon_properties=武器屬性
+config.spartanweaponry:quickStrikeHurtResistTicks快速打擊: 攻擊間隔
 
-config.spartanweaponry:category.general=General Options
-config.spartanweaponry:enableExperimentalWeapons=Enable Experimental Weapons
-config.spartanweaponry:enableModdedMaterialWeapons=Enable Modded-Material Weapons
-config.spartanweaponry:forceDisableUncraftableTooltips=Force Disable Uncraftable Weapon Tooltips
+config.spartanweaponry:category.general=常規選項
+config.spartanweaponry:enableExperimentalWeapons=啟用實驗武器
+config.spartanweaponry:enableModdedMaterialWeapons=啟用改裝材料武器
+config.spartanweaponry:forceDisableUncraftableTooltips=強制禁用無法製作的武器提示
 
-config.spartanweaponry:category.client=Client Options
-config.spartanweaponry:quiverHudAlignment=Quiver HUD Alignment
-config.spartanweaponry:quiverHudOffsetX=Quiver HUD X-offset
-config.spartanweaponry:quiverHudOffsetY=Quiver HUD Y-offset
-config.spartanweaponry:disableNewCrosshairCrossbow=Disable New Crossbow Crosshair
-config.spartanweaponry:disableNewCrosshairThrowingWeapon=Disable New Throwing Weapon Crosshair
+config.spartanweaponry:category.client=用戶端選項
+config.spartanweaponry:quiverHudAlignment=箭袋HUD對齊
+config.spartanweaponry:quiverHudOffsetX=箭形HUD X偏移
+config.spartanweaponry:quiverHudOffsetY=箭形HUD Y偏移
+config.spartanweaponry:disableNewCrosshairCrossbow=禁用弩十字準線
+config.spartanweaponry:disableNewCrosshairThrowingWeapon=禁用新投擲武器十字準線
